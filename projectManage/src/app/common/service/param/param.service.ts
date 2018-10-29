@@ -45,7 +45,7 @@ export class ParamService {
       projectName: '',
       userName: '',
       loadCategory: '',
-      modelID: 'e1b61a41-9f56-49fd-8597-f0c4a2337b43',
+      modelID: 'c9dccd9c-7188-46d7-a380-af886c65f8d2',
       viewID: '',
       viewpointID: '',
       versionNO: '',
@@ -75,11 +75,11 @@ export class ParamService {
       };
       this.param.useTexture = this.getQueryBoolean('usetex') || true;
       this.param.bim365ProjectID = this.getQueryString('bim365ProjectId') || 'd975e1ea-7128-ceed-ac77-4a28d3bfd472';
-      this.param.projectID = this.getQueryString('projectId') || '7625a0b0-ae55-4131-843c-c791f93ff496';
+      this.param.projectID = this.getQueryString('projectId') || '734ca1e0-4f4a-e842-6b84-f59cd1c7b218';
       this.param.userName = this.getQueryString('user') || 'Yousong';
       this.param.loadCategory = this.getQueryString('category') || 'model';
       this.param.viewID = this.getQueryString('viewID') || '';
-      this.param.modelID = this.getQueryString('model') || '25414c2b-6c54-4640-9c78-21dc9117d13d';
+      this.param.modelID = this.getQueryString('model') || 'c9dccd9c-7188-46d7-a380-af886c65f8d2';
       this.param.versionNO = this.getQueryString('ver') || '';
       this.param.modelTree = this.getQueryBoolean('modelTree') || true;
       this.param.currentModelID = this.getQueryString('model');

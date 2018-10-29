@@ -1,7 +1,7 @@
 var bim_config = {
   //service
-  server: 'https://bimcomposer.probim.cn/api',
-  mainServer: 'https://api.probim.cn/Project',
+  server: 'https://bimcomposer.probim.cn:444/api',
+  mainServer: 'https://api.probim.cn/Project:444',
   filePath: "assets",
   BIMComposerPath:'',
   issuePath:'/ProjectManage/Issue/Index',

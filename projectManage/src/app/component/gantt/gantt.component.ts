@@ -30,7 +30,7 @@ export class GanttComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.iframe.nativeElement.src = `/schedule-vue/index.html?urlConfig=${'https://bimcomposer.probim.cn'}&ProjectID=${this.paramService.param.modelID}&ModelID=${this.paramService.param.modelID}`;
+    this.iframe.nativeElement.src = `/schedule-vue/index.html?urlConfig=${'https://bimcomposer.probim.cn'}&ProjectID=${this.paramService.param.projectID}&ModelID=${this.paramService.param.modelID}`;
     (this.scheduleElementRef.nativeElement.contentWindow as any).showOrHideComposer = (event) => {
       let height = document.body.clientHeight - 44;
       let width = 600;
